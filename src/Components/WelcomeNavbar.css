@@ -1,0 +1,13 @@
+.welcome-navbar {
+    overflow: hidden;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+}
+
+@media (max-width: 414px) and (min-height: 800px) {
+    .welcome-navbar {
+        height: 7vh;
+    }
+}
