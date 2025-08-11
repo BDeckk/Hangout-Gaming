@@ -1,11 +1,15 @@
 import { useState } from 'react'
-import Signup from './Components/signUp'
+import { Router, Routes, Route } from 'react-router-dom'
+import { Profile } from "./Pages/Profile" 
+import { Gallery } from "./Pages/Gallery" 
+import { Members } from "./Pages/Members" 
+import { Layout } from './Components/Layout'
+
 
 function App() {
 
   return (
-    <>
-    </>
+    <Layout />
   )
 }
 
